@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Weather</title>
+</head>
+
+<body>
+
+
+    <main id="main">
+        <nav class="navbar navbar-expand-lg bg-main p-5">
+            <div class="container-fluid px-5">
+                <a class="navbar-brand text-white d-flex align-items-center gap-3 m-0 ps-5" href="#main">
+                    <img class="logo-img" src="images/logo.png" alt="logo">
+                    <div class="logo-content">
+                        <h1 class="fw-bolder m-0">Weather</h1>
+                        <p class="fw-lighter m-0">tagline goes here</p>
+                    </div>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse pe-5" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a id="home" class="nav-link active" aria-current="page" href="#main">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">News</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Live Cameras</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Photos</a>
+                        </li>
+                        </li>
+                        <li class="nav-item">
+                            <a id="contactLink" class="nav-link" href="#">Contact</a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+
+
+
+
+
+
+        <section class="home p-4" id="home">
+
+
+            <div class="container">
+                <div class="position-relative my-5 w-75 mx-auto input-container">
+                    <input id="findInput" class="form-control p-3 rounded-pill bg-main" type="text"
+                        placeholder="Find your Location...">
+                    <p id="findBtn" class="position-absolute top-50 translate-middle-y rounded-pill px-5 py-2">...</p>
+                </div>
+                <div class="row rounded-5" id="rowData">
+                    <div class="col-md-4 p-0">
+                        <div class="card ">
+
+                            <div class="card-header d-flex justify-content-between bg-card-header-a rounded-0">
+                                <p class="m-0">Saturday</p>
+                                <p class="m-0">15Jsne</p>
+                            </div>
+
+                            <div class="card-body bg-card-a">
+                                <p class="name">Cairo</p>
+                                <p class="today-degree">30.9C</p>
+                                <p>icon</p>
+                                <p class="status">clear</p>
+
+                                <div class="d-flex justify-content-start gap-2">
+                                    <p>icon</p>
+                                    <p>icon</p>
+                                    <p>icon</p>
+
+                                </div>
+
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4  p-0">
+                        <div class="card ">
+                            <div class="card-header d-center bg-card-header-b rounded-0">
+                                <p class="m-0 ">Saturday</p>
+
+                            </div>
+
+                            <div class="card-body bg-card-b">
+                                <p class="degree">30.9C</p>
+                                <p>icon</p>
+                                <p class="status">clear</p>
+
+                                <div class="d-flex justify-content-start gap-2">
+                                    <p>icon</p>
+                                    <p>icon</p>
+                                    <p>icon</p>
+
+                                </div>
+
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4  p-0">
+                        <div class="card">
+                            <div class="card-header d-center bg-card-header-a rounded-0">
+                                <p class="m-0 ">Saturday</p>
+
+                            </div>
+
+                            <div class="card-body bg-card-a">
+                                <p class="degree">30.9C</p>
+                                <p>icon</p>
+                                <p class="status">clear</p>
+
+                                <div class="d-flex justify-content-start gap-2">
+                                    <p>icon</p>
+                                    <p>icon</p>
+                                    <p>icon</p>
+
+                                </div>
+
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+            </div>
+
+
+
+
+
+
+        </section>
+    </main>
+
+    <footer class="pt-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-7">
+                    <div class="position-relative my-5 w-100 input-container">
+                        <input class="form-control p-3 rounded-pill bg-main" type="text"
+                            placeholder="Enter Your Email To Subscribe...">
+                        <button
+                            class="btn btn-primary position-absolute top-50 translate-middle-y rounded-pill px-5 py-2">Subscribe</button>
+                    </div>
+                </div>
+
+                <div class="col-md-5">
+                    <div class="soical d-center">
+                        <a class="text-decoration-none" href="#"> <i class="fa-brands fa-facebook-f"></i></a>
+                        <a class="text-decoration-none" href="#"><i class="fa-brands fa-twitter"></i></a>
+                        <a class="text-decoration-none" href="#"><i class="fa-brands fa-google-plus-g"></i></a>
+                        <a class="text-decoration-none" href="#"> <i class="fa-brands fa-pinterest-p"></i></a>
+                    </div>
+                </div>
+
+                <div class="col-md-12 developed py-3">
+                    <p class="m-0">&copy; 2024 Designed and developed by <a href="https://www.linkedin.com/in/moamenmokhtar-co/" target="_blank">Moamen Mokhtar</a></p>
+                </div>
+
+
+            </div>
+        </div>
+    </footer>
+
+
+
+
+    <script src="js/index.js"></script>
+</body>
+
+</html>
